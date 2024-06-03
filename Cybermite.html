@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micah Fling's ePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Micah Fling's ePortfolio</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showTab('about')">About Me</a></li>
+                <li><a href="#" onclick="showTab('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about" class="tab-content">
+                <h2>About Me</h2>
+                <p>Hello! I'm Micah Fling, a passionate developer with a love for creating beautiful and functional web applications...</p>
+            </section>
+            <section id="contact" class="tab-content" style="display: none;">
+                <h2>Contact</h2>
+                <p>You can reach me at:</p>
+                <ul>
+                    <li>Email: micah.fling@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Micah Fling. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
